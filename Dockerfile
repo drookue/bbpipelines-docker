@@ -24,6 +24,4 @@ RUN apt-get autoremove --assume-yes \
     && apt-get clean --assume-yes \
     && rm -rf /var/lib/apt/lists/*
 
-RUN npm i -g dotnet-3.1
-#RUN npm install -g sfdc-generate-package
-#RUN npm install -g sfdx-codescan-plugin
+#RUN npm i -g dotnet-3.1
